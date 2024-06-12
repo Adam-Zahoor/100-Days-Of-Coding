@@ -1,6 +1,9 @@
 function objectKeyValue(key, value) {
-    var myObject = { "key": value };
-    console.log(myObject);
+    var myObject = {};
+    myObject[key] = value;
+    return myObject;
 }
 ;
-objectKeyValue("myName", "adam");
+console.log(objectKeyValue("myName", "adam"));
+console.log(objectKeyValue("myAge", "21"));
+console.log(objectKeyValue("myNumber", "xyz"));
