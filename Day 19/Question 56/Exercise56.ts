@@ -5,3 +5,10 @@ let numItem = mixItems.filter(item => typeof item === "number");
 
 console.log(stringItem);
 console.log(numItem);
+
+
+
+
+
+
+

@@ -15,3 +15,5 @@ let mySmartphone = {
 // logging some of the information about the smartphone on the console
 console.log(mySmartphone.price);
 console.log(mySmartphone.RAM);
+
+

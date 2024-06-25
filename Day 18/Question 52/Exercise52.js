@@ -1,3 +1,4 @@
+// creating an object that stores some of the information about a smartphone
 var mySmartphone = {
     brand: "realme",
     model: "realme 5",
@@ -10,5 +11,6 @@ var mySmartphone = {
     batteryTiming: "32 hours",
     price: 32000
 };
+// logging some of the information about the smartphone on the console
 console.log(mySmartphone.price);
 console.log(mySmartphone.RAM);

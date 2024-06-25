@@ -7,3 +7,9 @@ function average(...numbers: number[]) {
 };
 
 average(76,33,58,55,22,53,56);
+
+
+
+
+
+

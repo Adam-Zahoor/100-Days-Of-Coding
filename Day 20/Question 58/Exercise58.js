@@ -1,12 +1,9 @@
-function average() {
-    var numbers = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        numbers[_i] = arguments[_i];
-    }
-    var sum = numbers.reduce(function (prev, next) {
+"use strict";
+function average(...numbers) {
+    let sum = numbers.reduce((prev, next) => {
         return prev + next;
     });
-    var average = sum / numbers.length;
+    let average = sum / numbers.length;
     console.log(average);
 }
 ;

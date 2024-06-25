@@ -11,3 +11,6 @@ let fiveAddition = adder(5);
 console.log(fiveAddition(10));
 
 console.log(fiveAddition(65));
+
+
+

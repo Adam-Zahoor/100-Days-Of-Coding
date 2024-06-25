@@ -5,8 +5,15 @@ let grades: number[] = [93, 84, 77, 66, 62, 59, 96, 72];
 let sum: number = grades.reduce((prev, next) => {
     return prev + next;
 });
-console.log(sum);
+console.log("Sum of all the numbers: ",sum);
 
 // calculating the average using the variables grade and sum
 let average: number = sum/grades.length;
-console.log(average);
+console.log("Average of all the numbers: ",average);
+
+
+
+
+
+
+
